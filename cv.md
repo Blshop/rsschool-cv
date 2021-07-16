@@ -1,6 +1,6 @@
 # Nikita Erechtchenko
 
-### Phone:+375 (29) 121 43 20
+### Phone:+375 (29) 121-43-20
 ### Email: envworking@gmail.com
 ### LinkedIn: linkedin.com/in/nikitaerechtchenko-5a0ba8b8
 
