@@ -14,8 +14,8 @@
 • CSS
 • Adobe XD
 ## Languages:
-Russian – native
-English – intermediate
+#### Russian – native
+#### English – intermediate
 
 ## Experience
 ### Chief technical officer - 10/2019 to 03/2020 “Медэкс-Могилев”, Mogilev
