@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(204, 185, 185);
+  font-size: 1.5rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+  width: 1280px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+  margin: 20px;
+  flex: 2;
+  order: 2;
+}
+aside {
+  margin: 20px;
+  flex: 1;
+  order: 1;
+  border-radius: 60px;
+  background-color: rgb(40, 35, 61);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+figure img {
+  border-radius: 50%;
+}
+figure figcaption {
+  padding: 20px;
+  font-size: 2rem;
+}
+h2 {
+  display: inline;
+}
+
+.container-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date,
+.position {
+  padding: 10px;
+  text-align: left;
+  flex: 1;
+}
+
+aside ul {
+  list-style: none;
+}
+.fab,
+.fas {
+  color: sandybrown;
+}
+
+article.skills ul {
+  display: inline-block;
+  padding: 0px 40px;
+}
+aside a {
+  color: white;
+  text-decoration: none;
+}
+aside li {
+  padding: 3px;
+}
+footer {
+  width: 100%;
+  order: 3;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+footer a {
+  text-decoration: none;
+}
