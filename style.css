@@ -1,31 +1,117 @@
+html,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rgb(204, 185, 185);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(231, 231, 231);
 }
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
+  margin: auto;
   background-color: white;
+  border-radius: 60px 0 60px 60px;
+}
+.main-container {
+  max-width: 1280px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
+
+/* header */
+
+header {
+  max-width: 100%;
+  background-color: rgb(40, 35, 61);
+  border-radius: 60px 0 0 0;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+nav .openMenu,
+nav .closeMenu {
+  display: none;
+  height: 28px;
+}
+
+nav .closeMenu {
+  text-align: right;
+}
+
+nav .mainMenu {
+  display: flex;
+  justify-content: right;
+  background-color: rgb(40, 35, 61);
+  padding: 20px;
+  margin: 0px;
+}
+
+nav .mainMenu li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(252, 122, 0);
+}
+
+@media (max-width: 1000px) {
+  nav .mainMenu {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-radius: 0px 0px 20px 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+}
+
 main {
   margin: 20px;
   flex: 2;
   order: 2;
 }
 aside {
-  margin: 20px;
   flex: 1;
   order: 1;
-  border-radius: 60px;
+  border-radius: 0 0 60px 60px;
   background-color: rgb(40, 35, 61);
   color: white;
-  padding: 20px;
+  padding: 0px 50px;
   text-align: center;
 }
+figure.photo {
+  margin: 0px;
+}
+
 figure img {
   border-radius: 50%;
 }
@@ -70,8 +156,11 @@ aside li {
 }
 footer {
   width: 100%;
-  order: 3;
+  order: 4;
   text-align: center;
+  background-color: rgb(40, 35, 61);
+  color: white;
+  border-radius: 0 0 60px 60px;
 }
 
 footer ul li {
@@ -81,4 +170,45 @@ footer ul li {
 
 footer a {
   text-decoration: none;
+  color: white;
+}
+
+footer img {
+  filter: invert(100%) brightness(119%) contrast(119%);
+}
+
+pre {
+  padding: 20px;
+}
+
+.code {
+  width: 100%;
+  order: 3;
+  text-align: center;
+}
+
+.code .completed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.example p {
+  margin-bottom: 20px;
+}
+
+.javascript {
+  background-color: rgb(221, 221, 221);
+  max-width: 100vw;
+}
+
+.example img {
+  min-width: 320px;
+  max-width: 500px;
 }
