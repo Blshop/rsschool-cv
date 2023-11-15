@@ -17,6 +17,7 @@
 #### English – intermediate
 
 ## Experience
+### Leading Engineer - 09/2021 - Current date “Mogilev Regional Oncology Clinic”, Mogilev
 ### Chief technical officer - 10/2019 to 03/2020 “Медэкс-Могилев”, Mogilev
 ### Engineer - 12/2012 to 10/2019 “Mogilev Regional Oncology Clinic”, Mogilev
 ### Head of engineer department - 01/2011 to 12/2012 “Mogilev Regional Oncology Clinic”, Mogilev
