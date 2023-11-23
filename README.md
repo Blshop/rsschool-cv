@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Blshop.github.io/rsschool-cv/cv
