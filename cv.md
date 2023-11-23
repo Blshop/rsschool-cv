@@ -2,19 +2,19 @@
 
 ### Phone:+375 (29) 121-43-20
 ### Email: envworking@gmail.com
-### LinkedIn: linkedin.com/in/nikitaerechtchenko-5a0ba8b8
+### [LinkedIn]: linkedin.com/in/nikitaerechtchenko-5a0ba8b8
 
  Skill Highlights
-• Python
-• Flask
-• Pandas
-• SQL
-• HTML
-• CSS
+* * Python
+* * Flask
+* * Pandas
+* * SQL
+* * HTML
+* * CSS
 
 ## Languages:
-#### Russian – native
-#### English – intermediate
++ Russian – native
++ English – intermediate
 
 ## Experience
 ### Leading Engineer - 09/2021 - Current date “Mogilev Regional Oncology Clinic”, Mogilev
