@@ -123,4 +123,45 @@ footer ul li {
 }
 footer img {
   filter: invert(100%) brightness(119%) contrast(119%);
+}
+
+pre {
+  padding: 20px;
+  text-align: left;
+}
+
+.code {
+  width: 100%;
+  order: 3;
+  text-align: center;
+}
+
+.code .completed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.example p {
+  margin-bottom: 20px;
+}
+
+.javascript {
+  background-color: rgb(221, 221, 221);
+}
+
+.example img {
+  min-width: 320px;
+  max-width: 500px;
+}
+
+h3 {
+  margin: 0px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
