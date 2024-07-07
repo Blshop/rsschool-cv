@@ -1,0 +1,167 @@
+html,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(231, 231, 231);
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+  background-color: white;
+  border-radius: 60px 0 60px 60px;
+}
+
+.main-container {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(40, 35, 61);
+  border-radius: 60px 0 0 0;
+  padding: 20px 40px;
+}
+header nav {
+  margin-left: auto;
+}
+header nav .menu {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+header nav .menu a {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+}
+header nav .menu a:hover {
+  color: rgb(252, 122, 0);
+}
+
+aside {
+  flex: 1;
+  order: 1;
+  border-radius: 0px 0px 60px 60px;
+  background-color: rgb(40, 35, 61);
+  color: white;
+  padding: 0px 50px;
+  text-align: center;
+}
+aside figure img {
+  border-radius: 50%;
+}
+aside figure figcaption {
+  padding: 20px;
+  font-size: 2rem;
+}
+aside li {
+  padding: 3px;
+}
+
+main {
+  margin: 20px;
+  flex: 2;
+  order: 2;
+}
+main article.skills ul {
+  display: inline-block;
+  padding: 0px 40px;
+}
+main h2 {
+  display: inline-block;
+}
+main .container-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container-info .date,
+main .container-info .position {
+  padding: 10px;
+  text-align: left;
+  flex: 1;
+}
+
+.fab,
+.fas {
+  color: sandybrown;
+}
+
+footer {
+  width: 100%;
+  order: 4;
+  text-align: center;
+  background-color: rgb(40, 35, 61);
+  color: white;
+  border-radius: 0 0 60px 60px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 15px;
+}
+footer img {
+  filter: invert(100%) brightness(119%) contrast(119%);
+}
+
+pre {
+  padding: 20px;
+  text-align: left;
+}
+
+.code {
+  width: 100%;
+  order: 3;
+  text-align: center;
+}
+
+.code .completed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.example p {
+  margin-bottom: 20px;
+}
+
+.javascript {
+  background-color: rgb(221, 221, 221);
+}
+
+.example img {
+  min-width: 320px;
+  max-width: 500px;
+}
+
+h3 {
+  margin: 0px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
