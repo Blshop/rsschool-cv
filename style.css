@@ -107,4 +107,20 @@ main .container-info .position {
 .fab,
 .fas {
   color: sandybrown;
+}
+
+footer {
+  width: 100%;
+  order: 4;
+  text-align: center;
+  background-color: rgb(40, 35, 61);
+  color: white;
+  border-radius: 0 0 60px 60px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 15px;
+}
+footer img {
+  filter: invert(100%) brightness(119%) contrast(119%);
 }/*# sourceMappingURL=style.css.map */
