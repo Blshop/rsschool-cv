@@ -5,12 +5,14 @@ p {
   padding: 0px;
 }
 
+ul,
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 html {
@@ -37,7 +39,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* header */
 header {
   background-color: rgb(40, 35, 61);
   border-radius: 60px 0 0 0;
@@ -63,15 +64,21 @@ header nav .menu a:hover {
 aside {
   flex: 1;
   order: 1;
-  border-radius: 60px 60px 60px 60px;
+  border-radius: 0px 0px 60px 60px;
   background-color: rgb(40, 35, 61);
   color: white;
-  padding: 40px 20px 20px 20px;
+  padding: 0px 50px;
   text-align: center;
 }
-
-figure.photo {
-  margin: 0px;
+aside figure img {
+  border-radius: 50%;
+}
+aside figure figcaption {
+  padding: 20px;
+  font-size: 2rem;
+}
+aside li {
+  padding: 3px;
 }
 
 main {
@@ -79,39 +86,25 @@ main {
   flex: 2;
   order: 2;
 }
-
-figure img {
-  border-radius: 50%;
+main article.skills ul {
+  display: inline-block;
+  padding: 0px 40px;
 }
-
-figure figcaption {
-  padding: 20px;
-  font-size: 2rem;
+main h2 {
+  display: inline-block;
 }
-
-h2 {
-  display: inline;
-}
-
-.container-info {
+main .container-info {
   display: flex;
   flex-wrap: wrap;
 }
-
-aside ul {
-  list-style: none;
+main .container-info .date,
+main .container-info .position {
+  padding: 10px;
+  text-align: left;
+  flex: 1;
 }
 
 .fab,
 .fas {
   color: sandybrown;
-}
-
-aside a {
-  color: white;
-  text-decoration: none;
-}
-
-aside li {
-  padding: 3px;
 }/*# sourceMappingURL=style.css.map */
